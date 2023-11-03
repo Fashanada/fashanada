@@ -1,0 +1,9 @@
+SELECT *
+FROM mahasiswa
+ORDER BY tanggal_lahir
+LIMIT 1;
+
+SELECT *
+FROM mahasiswa
+ORDER BY tanggal_lahir DESC
+LIMIT 1;
