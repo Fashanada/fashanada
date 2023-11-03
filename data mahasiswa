@@ -1,0 +1,20 @@
+CREATE TABLE mahasiswa (
+nomor_mahasiswa varchar (9) PRIMARY KEY,
+nama varchar (50)NOT NULL,
+gender char (1) NOT NULL,
+alamat varchar (1000)NOT NULL,
+kota_asal varchar (20) NOT NULL,
+tanggal_lahir date NOT NULL,
+tahun_masuk int NOT NULL,
+nomor_handphone varchar (15) NULL 
+);
+
+insert into mahasiswa (nomor_mahasiswa, nama, gender, alamat, kota_asal, tanggal_lahir, tahun_masuk, nomor_handphone)
+values 
+(221331011, 'FASHA', 'P', 'GEDEBAGE', 'BANDUNG', '2004/05/21', '2022', '085703158339'),
+(221331004, 'CANTIKA', 'P', 'MARGA ASIH', 'BANDUNG', '2004/02/10', '2022', '0875672239'),
+(221331009, 'DEVITA', 'P', 'CIWARUGA', 'BANDUNG', '2003/07/12', '2022', '08766733398'),
+(221331016, 'KAMILA', 'P', 'CIWARUGA', 'BANDUNG', '2003/06/13', '2022', '08690087626'),
+(221331001, 'ADAM', 'L', 'BUAH BATU', 'BANDUNG', '2003/02/25', '2022', '08567829345'),
+(221331012, 'AMALA', 'P', 'CIHANJUANG', 'BANDUNG', '2004/07/17', '2022', '085908887642'),
+(221331018, 'MELVA', 'P', 'CIWARUGA', 'BANDUNG', '2003/10/16', '2022', '089876577732')
